@@ -1,0 +1,3 @@
+In my original implementation of Question 3b, I observed that there were many links whose  were not converging at all.
+Hence, in my modified implementation of Question 3b, I'm not waiting for all links to converge. I'm only waiting for top K links to converge. 
+And in the corner case that not even K links are converging even after 20 iterations, I'm considering all the links irrespective of whether or not they converged, and I'm outputting the top K links among them.
